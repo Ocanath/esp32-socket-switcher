@@ -915,7 +915,7 @@
       (property "Value" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (at 0 0 0)
+      (property "Footprint" "esp32-socket-switcher:KEYSTONE_7770" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
@@ -926,9 +926,9 @@
           (stroke (width 0) (type default))
           (fill (type background))
         )
-        (pin input line (at 2.54 0 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.27 1.27))))
+        (pin passive line (at 2.54 0 180) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1568,7 +1568,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9a24a55d-68da-4614-89c9-9940f53fd986)
   )
-  (text "Need to get:\n1. C13 C12 footprints for eletrolytic caps\n2. L2 package\n3. F1 fuse package\n4. Switch blocks for connecting"
+  (text "Need to get:\n1. C13 C12 footprints for eletrolytic caps\n2. L2 package\n3. F1 fuse package\n4. Replace screw terminals with barrier block(s)"
     (at 232.41 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b267e211-4c12-43c1-91c2-f04cf94eb541)
@@ -1750,13 +1750,13 @@
     (property "Value" "~" (at 67.31 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 67.31 19.05 0)
+    (property "Footprint" "esp32-socket-switcher:KEYSTONE_7770" (at 67.31 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 67.31 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid c235c080-e924-4909-9dbc-98a807de875f))
+    (pin "1" (uuid 65ea45b3-1cc2-4bbf-a9fe-09c78309b397))
     (instances
       (project "esp32-socket-switcher"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
@@ -1936,13 +1936,13 @@
     (property "Value" "~" (at 20.32 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 20.32 19.05 0)
+    (property "Footprint" "esp32-socket-switcher:KEYSTONE_7770" (at 20.32 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 20.32 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid c686b4d5-614a-471d-9aac-4f5fba54cb30))
+    (pin "1" (uuid 16d3a838-e42c-480c-b252-e825edb1becf))
     (instances
       (project "esp32-socket-switcher"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
@@ -2231,13 +2231,13 @@
     (property "Value" "~" (at 20.32 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 20.32 24.13 0)
+    (property "Footprint" "esp32-socket-switcher:KEYSTONE_7770" (at 20.32 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 20.32 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid f2733420-bddf-4679-a782-abee81fb0089))
+    (pin "1" (uuid ab988245-dc36-4d54-827d-25d417f539d3))
     (instances
       (project "esp32-socket-switcher"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
@@ -2256,13 +2256,13 @@
     (property "Value" "~" (at 248.92 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 248.92 92.71 0)
+    (property "Footprint" "esp32-socket-switcher:KEYSTONE_7770" (at 248.92 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 248.92 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 5b29fce1-d165-4ee2-88f0-bbaffd755a2a))
+    (pin "1" (uuid 15384c28-1704-4302-ad34-c2a6a62753d1))
     (instances
       (project "esp32-socket-switcher"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
@@ -2306,13 +2306,13 @@
     (property "Value" "~" (at 248.92 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 248.92 106.68 0)
+    (property "Footprint" "esp32-socket-switcher:KEYSTONE_7770" (at 248.92 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 248.92 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid ed0d09eb-da7b-4ba3-8cf9-1fab33fe4b59))
+    (pin "1" (uuid 1b30bb03-dfbe-431f-ac2d-21cb231b43e6))
     (instances
       (project "esp32-socket-switcher"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
@@ -2738,13 +2738,13 @@
     (property "Value" "~" (at 67.31 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 67.31 24.13 0)
+    (property "Footprint" "esp32-socket-switcher:KEYSTONE_7770" (at 67.31 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 67.31 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 9bed864c-5bd4-4283-a6ba-c9fb0ff915d3))
+    (pin "1" (uuid 0f1267ab-7f9b-4f2e-a8f3-82362f6a443a))
     (instances
       (project "esp32-socket-switcher"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
