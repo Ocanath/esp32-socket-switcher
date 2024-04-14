@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "robot-cortex")(type "KiCad")(uri "${KIPRJMOD}/robot-cortex.kicad_sym")(options "")(descr ""))
+  (lib (name "esp32-socket-switcher")(type "KiCad")(uri "${KIPRJMOD}/esp32-socket-switcher.kicad_sym")(options "")(descr ""))
 )

@@ -390,11 +390,11 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "robot-cortex"
+      "esp32-socket-switcher"
     ]
   },
   "meta": {
-    "filename": "robot-cortex.kicad_pro",
+    "filename": "esp32-socket-switcher.kicad_pro",
     "version": 1
   },
   "net_settings": {
